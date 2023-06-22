@@ -19,12 +19,12 @@ i have kept the .env file for the pusher keys setup
     ```sh
     npm install
     ```
-    4- create the db called "live_chat" as in the .env file
-4. Initilise the database
+5- create the db called "live_chat" as in the .env file
+6. Initilise the database
     ```sh
     php artisan migrate
     ```
-5. Compile the webpages and run it
+7. Compile the webpages and run it
     ```sh
     npm run dev
     php artisan serve
